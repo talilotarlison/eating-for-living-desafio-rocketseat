@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+*,
+:root {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-image: url("https://github.com/talilotarlison/eating-for-living-desafio-rocketseat/blob/main/assets/css/bg.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #121214;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+}
+
+h1,
+span {
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-size: 4rem !important;
+    font-style: normal;
+    color: whitesmoke;
+    margin: 0;
+}
+
+span {
+    color: #2bc5ce;
+}
+
+p {
+    font-family: "inter";
+    letter-spacing: 1px;
+}
+
+/* https://developer.mozilla.org/pt-BR/docs/Web/CSS/letter-spacing */
+
+.btns {
+    font-family: "inter";
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+a:first-child {
+
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+a:nth-child(2) {
+    color: black;
+    background-color: #2bc5ce;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 5px;
+}
